@@ -10,11 +10,11 @@
   "env": {
   "OWNER_NAME": {
   "description": "Enter your name",
-      "value": "PRABATH"
+      "value": "DURRANI"
   },
     "DL_SIZE": {
   "description": "The bot cannot download files beyond the number you enter",
-      "value": "150"
+      "value": "800"
   },
   "ALIVE_IMG": {
     "description": "Put a url of an image that should come when you hit the .alive command",
@@ -39,7 +39,7 @@
   },  
       "SUDO": {
   "description": "In addition to the bot number, enter another number here to control the bot",
-      "value": "94762280384"
+      "value": "923006838210"
   },
    "ANTILINK_VALUES": {
     "description": "When antilink is turned on, when this link is added, the user will be removed",
@@ -61,7 +61,7 @@
   },
   "OWNER_NUMBER": {
     "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-       "value": "94762280384"
+       "value": "923006838210"
   },
    "SESSION_ID": {
     "description": "Scan the QR and enter the code "
@@ -72,8 +72,8 @@
   },
   "AUTO_READ_STATUS": {
     "description": "If you want to auto read whatsapp status from the bot, give true or else give false",
-       "value": "false",
-       "required" :false
+       "value": "true",
+       "required" :true
   },
   "MONGODB_URI": {
     "description": "Put Your Mongodb_url from https://railway.app/new"
